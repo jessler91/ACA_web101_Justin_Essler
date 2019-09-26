@@ -1,0 +1,45 @@
+/*body {
+  background:light green;
+}*/
+
+header {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+  color:black;
+}
+
+h1 {
+  margin: 5% auto;
+  width:60%;
+}
+
+p {
+  margin: 5% auto;
+  width:60%;
+}
+
+
+
+article {
+  color:green
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  width: 60%;
+  margin: 1% auto;
+}
+
+main {
+  width:60%;
+  margin: 5% auto;
+}
+
+article:hover {
+  background:grey
+}
+
+article:hover > h3 {
+  color:blue;
+
+}

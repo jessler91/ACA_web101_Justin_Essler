@@ -1,17 +1,44 @@
-/*body {
-  background:light green;
-}*/
+body {
+  background-color:lightgreen;
+}
 
 header {
   display: grid;
   grid-template-columns: 40% 60%;
   width: 100%;
   color:black;
+  background-color:rgb(102, 156, 102);
+  padding:3px;
+  text-align: left;
 }
+
+nav {
+  margin:auto;
+  font-size: 24px;
+}
+
+.titles {
+  background-color: antiquewhite;
+  padding:1px;
+  width:95%;
+  margin:auto;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.titles p {
+  margin:auto;
+
+}
+
 
 h1 {
   margin: 5% auto;
   width:60%;
+}
+
+h1 p {
+  padding:1px;
 }
 
 p {
@@ -19,15 +46,28 @@ p {
   width:60%;
 }
 
+section {
+  background-color:white;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin: 1% auto;
+  width: 60%;
+  padding:5px;
+}
 
+section p {
+  width:100%
+}
 
 article {
-  color:green
+  background-color: white;
   border-color: black;
   border-width: 2px;
   border-style: solid;
   width: 60%;
   margin: 1% auto;
+  padding:5px;
 }
 
 main {
@@ -42,4 +82,26 @@ article:hover {
 article:hover > h3 {
   color:blue;
 
+}
+
+section:hover > h2 {
+
+color:blue;
+}
+
+.class{
+  size:50%;
+}
+
+footer {
+  background-color:goldenrod;
+  height: 200px;
+  width:100%;
+  text-align: center;
+  font-size: 24px;
+  
+}
+
+footer p {
+  margin-top: 10px;
 }

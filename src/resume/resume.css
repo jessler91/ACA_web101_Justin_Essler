@@ -1,0 +1,102 @@
+header {
+  margin: auto;
+  grid-area: header;
+  background-color: greenyellow;
+  width: 100%;
+}
+
+aside {
+  background-color: aqua;
+  grid-area: aside;
+  padding: 5%;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+}
+
+.face img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+body {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "main main aside"
+    "main main aside"
+    "footer footer footer";
+}
+
+#high {
+  width: 300px;
+  size: 200px;
+}
+
+br {
+  color: black;
+  line-break: auto;
+}
+
+h2 {
+  text-align: left;
+  padding-top: 20px;
+  margin-top: 1px;
+}
+
+#title {
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+  padding-top: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h4 {
+  text-align: left;
+  padding-top: 1px;
+}
+
+main {
+  background-color: aquamarine;
+  margin-top: 0px;
+  grid-area: main;
+  padding: 25px;
+}
+
+.experience {
+  text-align: left;
+}
+
+/* .highlights {
+  grid: 33% 33% 33%;
+} */
+
+.achievements {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.skils > p {
+  text-align: left;
+}
+
+.education {
+  text-align: left;
+}
+
+footer {
+  height: 200px;
+  background-color: lightgoldenrodyellow;
+  grid-area: footer;
+}

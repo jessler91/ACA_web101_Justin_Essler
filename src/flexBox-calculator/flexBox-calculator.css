@@ -1,8 +1,46 @@
 header {
   height: 60px;
   background-color: aquamarine;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1 {
+  text-align: center;
 }
 
 .calculator {
-  display: flexbox;
+  border-style: solid;
+  border-color: black;
+  border-width: 4px;
+  width: 400px;
+  margin: auto;
+}
+
+.screen {
+  height: 90px;
+  border-style: solid;
+  border-color: coral;
+  border-width: 2px;
+  margin: 2px 2px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.button {
+  height: 90px;
+  width: 90px;
+  border-style: solid;
+  border-color: blueviolet;
+  border-width: 2px;
+  text-align: center;
+  margin: 2px 2px;
 }

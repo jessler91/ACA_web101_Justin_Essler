@@ -1,0 +1,53 @@
+body {
+    background-color: beige;
+}
+
+.board {
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    height:600px;
+    width: 600px;
+    margin:auto;
+    background-color:lightslategray;
+}
+
+/* =================
+Borders of the Board
+====================== */
+
+#tac-area1 {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size:30px;
+}
+#tac-area2 {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#tac-area3 {
+    border-bottom: 2px solid black;
+}
+#tac-area3 {
+    border-bottom: 2px solid black;
+}
+#tac-area4 {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#tac-area5 {
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#tac-area6 {
+    border-bottom: 2px solid black;
+}
+#tac-area7 {
+    border-right: 2px solid black;
+}
+#tac-area8 {
+    border-right: 2px solid black;
+}
+#tac-area9 {
+    /* border-right: 2px solid black; */
+}

@@ -1,0 +1,20 @@
+/* 
+=================
+Media Queries
+=======================/
+
+/* Extra Large and below (Wide Screen Desktops) */
+@media (max-width: 1200px) {
+}
+
+/* Large and below (Desktops) */
+@media (max-width: 992px) {
+}
+
+/* Medium and below (Tablets) */
+@media (max-width: 768px) {
+}
+
+/* Small and below (Landscape Phones) */
+@media (max-width: 576px) {
+}

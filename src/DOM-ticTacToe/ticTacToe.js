@@ -10,8 +10,8 @@ function changeMarkerToX(){
 }
 
 function changeMarkerToO(){ 
-    console.log("The O button was clicked!")
-    gameMarker = "0"
+    console.log("The o button was clicked!")
+    gameMarker = "o"
 }
 
 function placeMark(id){ 

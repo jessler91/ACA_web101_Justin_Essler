@@ -19,35 +19,64 @@ Borders of the Board
 #tac-area1 {
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    font-size:30px;
+    font-size:100px;
+    text-align: center;
+    padding-top:15%;
 }
 #tac-area2 {
     border-right: 2px solid black;
     border-bottom: 2px solid black;
+    font-size:100px;
+    text-align: center;
+    padding-top:15%;
 }
 #tac-area3 {
     border-bottom: 2px solid black;
+    font-size:100px;
+    text-align: center;
+    padding-top:15%;
 }
 #tac-area3 {
     border-bottom: 2px solid black;
+    font-size:100px;
+    text-align: center;
+    padding-top:15%;
 }
 #tac-area4 {
     border-right: 2px solid black;
     border-bottom: 2px solid black;
+    font-size:100px;
+    text-align: center;
+    padding-top:15%;
 }
 #tac-area5 {
     border-right: 2px solid black;
     border-bottom: 2px solid black;
+    font-size:100px;
+    text-align: center;
+    padding-top:15%;
 }
 #tac-area6 {
     border-bottom: 2px solid black;
+    font-size:100px;
+    text-align: center;
+    padding-top:15%;
 }
 #tac-area7 {
     border-right: 2px solid black;
+    font-size:100px;
+    text-align: center;
+    padding-top:15%;
 }
 #tac-area8 {
     border-right: 2px solid black;
+    font-size:100px;
+    text-align: center;
+    padding-top:15%;
 }
 #tac-area9 {
     /* border-right: 2px solid black; */
+    font-size:100px;
+    text-align: center;
+    padding-top:15%;
 }

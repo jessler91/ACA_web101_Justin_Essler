@@ -1,6 +1,6 @@
-/* ======== Justins Profile Page Main CSS File
-Justin Essler ============================
-10/24/19*/
+/* =====================================
+Justins Profile Page Main CSS File - 10/24/19
+===============================================*/
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -10,10 +10,18 @@ body {
   background-blend-mode: darken 15;
   opacity: 31;
   height: 100%;
+  margin:0;
+  padding:0;
+  margin-top:10px;
 }
 
+
+
+
+
+/* ========================================= */
 /* This is CSS for the Header of my Profile Page */
-/* Justin Essler ==============================*/
+/* Justin Essler ====================================*/
 
 .logo {
   width: 150px;
@@ -49,8 +57,13 @@ nav {
   max-width: 100%;
 }
 
+
+
+
+
+/* ======================================== */
 /* This is CSS for the Main of my Profile Page */
-/* Justin Essler =========================== */
+/* Justin Essler ================================= */
 
 main {
   height: auto;
@@ -94,8 +107,6 @@ h2 {
 button {
   grid-column: 2/3;
   margin: 3%;
-  /* width: 70%; */
-  /* height: 15%; */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   border-radius: 25px;
@@ -108,8 +119,13 @@ button {
   margin: auto;
 }
 
+
+
+
+
+/* ================================================== */
 /* This is CSS for the Rebuild Section of my Profile Page */
-/* Justin Essler ===================== */
+/* Justin Essler =============================================== */
 
 .video {
   display: flex;
@@ -148,6 +164,104 @@ input[type="submit"] {
   background-color: lightgreen;
 }
 
+.botton-o-page {
+  text-align: center;
+  margin-top:30px;
+}
+
+
+
+
+/* 
+==============
+Main Blog Area
+=================== */
+
+
+.blog-container main {
+  width: 70%;
+  margin: auto;
+  margin-top:20px;
+}
+
+
+.titles {
+  padding: 1px;
+  width: 95%;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.titles > h1 {
+  margin: auto;
+  margin-top:10px;
+  width: 60%;
+}
+
+.titles p {
+  padding: 1px;
+  margin: auto;
+  margin-top:10px;
+  width: 60%;
+}
+
+article {
+  background-color: white;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  width: 100%;
+  margin: 1% auto;
+  padding: 5px;
+}
+
+article:hover {
+  background: grey;
+}
+
+article:hover > h3 {
+  color: blue;
+}
+
+section:hover > h2 {
+  color: blue;
+}
+
+.class {
+  size: 50%;
+}
+
+.blog-bottom footer {
+  background-color: rgb(199, 183, 143);
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  /* margin-top: 50px; */
+}
+
+.twit-blog-page {
+  width:60%;
+  margin:auto;
+  margin-top:200px;
+}
+
+.twit-cover img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 90%;
+  margin: 20px auto;
+  position: absolute;
+  z-index: -1;
+}
+
+
+
+
+
+
 /* ----------About Me Page--------- */
 /* Justin Essler ===================== */
 
@@ -156,6 +270,72 @@ input[type="submit"] {
   width: 80%;
   margin: auto;
 }
+
+
+
+
+
+
+
+/* =====================
+Portfolio Container Page
+========================== */
+
+.protfolio-container {
+  width: 90%;
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  margin:auto;
+  margin-top: 20px;
+}
+
+.project {
+  height: 300px;
+  background-color:lightblue;
+  border: 2px solid black;
+  margin:2px;
+}
+
+.project > h3 {
+  text-align:center;
+  color:black;
+}
+
+.project p {
+  text-align:center;
+}
+
+.project-image {
+  /* display:flex; */
+  /* justify-content: center; */
+  border: 2px solid black;
+  height: 190px;
+  margin:10px;
+}
+
+.project-image > img {
+  background-image: url("../images/my-project-placeholder.png");
+  /* background-size:contain; */
+  			/* Set rules to fill background */
+        /* max-width:100%;
+        max-height:100%; */
+  
+  /* Set up proportionate scaling */
+  /* width: 100%;
+  height: auto; */
+  
+  /* Set up positioning */
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+}
+
+
+
+
+
+
 
 /* ----------Media Queries--------- */
 /* Justin Essler ===================== */
@@ -176,6 +356,13 @@ input[type="submit"] {
     display: grid;
     grid-template-columns: 5% 90% 5%;
   }
+
+  .twit-blog-page {
+    width:60%;
+    margin:auto;
+    margin-top:150px;
+  }
+
 }
 
 /* Medium and below (Tablets) */
@@ -218,6 +405,12 @@ input[type="submit"] {
   h1 {
     color: red;
   }
+
+  .twit-blog-page {
+    width:80%;
+    margin:auto;
+    margin-top:100px;
+  }
 }
 
 /* Small and below (Landscape Phones) */
@@ -241,4 +434,5 @@ input[type="submit"] {
     width: 150px;
     height: 150px;
   }
+
 }

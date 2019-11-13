@@ -164,12 +164,21 @@ input[type="submit"] {
   background-color: lightgreen;
 }
 
-.botton-o-page {
+.bottom-o-page {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
   text-align: center;
   margin-top:30px;
 }
 
-
+.location button {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  margin-top: 15px;
+}
 
 
 /* 

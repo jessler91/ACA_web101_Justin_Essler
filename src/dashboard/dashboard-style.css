@@ -184,19 +184,30 @@ Justins ToDo JQuery CSS
 
 #list_section {
   text-align: center;
+  border: 2px solid black;
 }
 
 #list_section > h1 {
-  color: white;
+  color: black;
   margin: 0px auto;
-  padding: 20px;
+  margin-top:30px;s
+
+}
+
+#list_section > p {
+  margin-top: 0px;
+  background-color: rgba(238, 216, 216, 0.938);
+}
+#list_section button {
+  width:40px;
 }
 
 #list_section > ul {
   padding: 0;
+  list-style-type:none;
 }
 
-#list_section > li {
+#list_section li {
   background-color: #fff;
   color: #000;
   font-size: 20px;
@@ -223,16 +234,20 @@ p {
 .item {
   background-color: #fff;
   color: #000;
+  width:200px;
+  margin:auto;
+
 }
 
-input[type='text'] {
+#list_section input[type='text'] {
   font-size: 12px;
   padding: 6px;
   border: 1px solid #000;
   border-radius: 3px;
+  margin-bottom:20px;
 }
 
-input[type='submit'] {
+#list_section input[type='submit'] {
   background-color: #fff;
   color: #000;
   border-radius: 8px;
